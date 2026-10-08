@@ -10,7 +10,7 @@ console.log("\n=== 2. Nullish Coalescing (??) ===");
 const tema = null;
 console.log("Tema:", tema ?? "claro"); //"CLARO"
 
-const telefone = undefinde;
+const telefone = undefined;
 console.log("Telefone:", telefone ?? "Nao informado"); //"Nao informado"
 
 //Exemplo 2: Preserva o numero 0, false e "" (string vazia)
