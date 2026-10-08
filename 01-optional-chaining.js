@@ -21,3 +21,9 @@ console.log("Cidade de Ana:", alunoComEndereco.endereco?.cidade);
 
 //Exemplo 3: Uso seguro com Arrays
 const usuarios = [{nome: "Carla"}];
+const usuariosVazios = [];
+
+console.log("Primeiro da lista:", usuarios[0]?.nome);//
+
+console.log("Primeiroda lista vazia:", usuariosVazios[0]?.nome);
+//undefined (sem travar)
